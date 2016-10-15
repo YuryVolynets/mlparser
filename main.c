@@ -13,7 +13,6 @@ int main(int argc, char *argv[])
     FILE *fp;
     char *line = NULL;
     size_t len = 0;
-    ssize_t read;
 
     fp = fopen(*(argv + 2), "r");
     if (!fp)
